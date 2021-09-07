@@ -47,13 +47,33 @@
     color: darkgrey;
     margin-top: 75px;
 }
+#p-span-1{
+    font-family: 'Staatliches',sans-serif,monospace;
+    font-style: italic;
+}
+#p-span-2{
+    font-family: 'Staatliches',sans-serif,monospace;
+    font-style: italic;
+}
+#p-span-3{
+    font-family: 'Staatliches',sans-serif,monospace;
+    font-style: italic;
+}
+#p-span-4{
+    font-family: 'Staatliches',sans-serif,monospace;
+    font-style: italic;
+}
+#p-span-5{
+    font-family: 'Staatliches',sans-serif,monospace;
+    font-style: italic;
+}
 .main-footer{
     background-color: black;
     text-align: center;
     font-size: 18px;
     color: darkgrey;
     padding: 10px;
-    font-family:'Lobster',sans-serif,monospace;
+    font-family:'Staatliches',sans-serif,monospace;
     position: absolute;
     bottom: 0;
     width: 100%;
