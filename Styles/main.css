@@ -1,0 +1,60 @@
+.main{
+    background-color:black;
+    margin: 0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Trees.JPG");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav{
+    background-color: black;
+    padding: 25px;
+}
+.main-nav-list{
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+.main-nav-list li {
+    display: inline-block;
+    margin: 5px;
+}
+.main-nav-list li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Lobster',sans-serif,monospace;
+}
+.main-heading{
+    color: darkgrey;
+    font-family: 'Staatliches',sans-serif,monospace;
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+    padding-top: 75px;
+}
+.second-heading{
+    color: darkgrey;
+    font-family: 'Lobster',sans-serif,monospace;
+    text-align: center;
+    font-size: 65px;
+    margin: 0px;
+}
+.main-paragraph{
+    text-align: center;
+    font-family: 'Lobster',sans-serif,monospace;
+    font-size: 24px;
+    color: darkgrey;
+    margin-top: 75px;
+}
+.main-footer{
+    background-color: black;
+    text-align: center;
+    font-size: 18px;
+    color: darkgrey;
+    padding: 10px;
+    font-family:'Lobster',sans-serif,monospace;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
