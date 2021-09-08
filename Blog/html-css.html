@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+            <link href="../styles/main.css" rel="stylesheet"/>
+            <title>
+                Blogs 📚
+            </title>
+        </head>
+        <body class="main">
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">About Me</a></li>
+                </ul>
+            </nav>
+            <h1 id="main-heading">My Blogs</h1>
+                <h2 class="second-heading">Take a cheeky look</h2>
+                    <h3 class="blog-1-heading">Classes VS IDs</h3>
+                         <p class="blog-1-para">To start off understanding what a class is and what an ID is, we need to know the basics of creating a website. Firstly, there is the HTML. The HTML stands for HyperText Markup Language. It is the language in which you write the content of the website with. HTML has things called elements, which allow you to create and structure your website with. 
+                         <br>
+                         Next off is the CSS. Once you’ve got your content written up, you then use CSS to style it and make it look how you want it to look. CSS stands for Cascade Style Sheets, and allows you to change and modify the way your content in your HTML will look whilst viewing it in the browser. 
+                        <br>
+                        Last but not least is Javascript. Java Script allows us to add even more changes to our HTML such as giving a page functionality and animation, to storing data from what the user is doing on the website. 
+                        <br>
+                         Now, individually, these things do awesome jobs alone, but to get them to communicate to each other and work as one, you need Selectors. There are a few different selectors available to use but the main ones used are ID selector and the Class selector which is what ill be focusing on today. 
+                         </p>
+                 <h3 class="blog-1-heading">What are the differences between Class and ID selectors? </h3>
+                         <p class="blog-1-para">The difference between an ID and a Class is that an ID is only used to identify one single component in our HTML. IDs are used when one element on the page should have a certain styling applied to it. However, a class can be used to target more than one component/element of HTML.
+                         </p>
+                 <h3 class="blog-1-heading">How do we use them?</h3>
+                        <p class="blog-1-para">Within CSS, using the ID or Class selector, it enables you to choose which element you're targeting and what kind of positioning and styling you give that element. For example:</p>
+                <div class="image-example-container">
+                    <div class="image-example"> 
+                         <img id="img1" src="../Images/html-id-real.png">
+                         <img id="img2" src="../Images/css-id-real.png">
+                         <img id="img3"src="../Images/web-id-real.png">
+                    </div>
+                    <p class="example-text">From left to right, the first image represents the the html showing ID's for individual span elements. The second image shows the CSS targeting those IDs and the applied styles. The last image shows the the corresponding results in the browser. Notice the words that are in 'span' elements look different?
+                        <br>
+                        <br>
+                    Lets have a look a class now </p>
+                </div>  
+                <div class="image-example-container">
+                     <div class="image-example">
+                        <img id="img4" src="../Images/html-class-ex.png">
+                        <img id="img5" src="../Images/css-class-ex.png">
+                        <img id="img6" src="../Images/web-class-ex.png">
+                    </div>
+                        <p class="example-text">From left to right, the first image represents the the html showing the classes for two different heading elements, h1 and h2. The second image shows the CSS targeting those classes and the applied styles. The last image shows the corresponding results of what you see in browser. Notice both classes are targeted and have differing styles?</p>
+                </div>
+                <div>
+                    <h3 class="blog-1-heading">Best practices</h3>
+                        <p class="example-text">When you work with CSS, there are no reasons making you use an ID over a class, but it is best practice to only use IDs if you want a style to apply to one element on the web page, and to use classes if you want a style to apply to multiple elements.</p>
+                </div>
+            <footer class="main-footer">Made by Macauley Dawson</footer>
+         </body>
+    </html>

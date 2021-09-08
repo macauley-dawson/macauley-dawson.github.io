@@ -25,7 +25,7 @@
     font-size: 25px;
     font-family: 'Lobster',sans-serif,monospace;
 }
-.main-heading{
+#main-heading{
     color: darkgrey;
     font-family: 'Staatliches',sans-serif,monospace;
     font-size: 80px;
@@ -39,6 +39,7 @@
     text-align: center;
     font-size: 65px;
     margin: 0px;
+    padding-bottom: 45px;
 }
 .main-paragraph{
     text-align: center;
@@ -74,7 +75,53 @@
     color: darkgrey;
     padding: 10px;
     font-family:'Staatliches',sans-serif,monospace;
-    position: absolute;
+    position: relative;
     bottom: 0;
-    width: 100%;
+}
+
+/* Start blog page CSS*/
+
+.blog-1-heading{
+    color: darkgrey;
+    font-family: 'Staatliches',sans-serif,monospace;
+    margin: 0;
+    text-align: center;
+    font-size: 35px;
+}
+.blog-1-para{
+    color: darkgrey;
+    text-align: center;
+    padding-inline: 308px;
+    line-height: 1.5;
+    font-size: 24px;
+}
+.image-example{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-example img{
+    margin: 10px;
+}
+#img1{
+    width: 44%;
+}
+#img2{
+    width: 26%;
+}
+#img3{
+    width: 30%;
+}
+#img4{
+    width: 35%;
+}
+#img6{
+    width: 30%;
+}
+.example-text{
+    text-align: center;
+    color: darkgray;
+    font-size: 24px;
+    padding-inline: 308px;
+    line-height: 1.5;
 }
