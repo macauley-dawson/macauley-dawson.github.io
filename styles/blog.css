@@ -1,7 +1,7 @@
 .main{
     background-color:black;
     margin: 0;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../Images/Trees-min.JPG");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Images/Trees-min.JPG");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -94,7 +94,7 @@
     font-size: 35px;
 }
 .blog-1-para{
-    color: darkgrey;
+    color: darkgray;
     text-align: center;
     padding-inline: 308px;
     line-height: 1.5;
