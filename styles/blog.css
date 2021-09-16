@@ -1,7 +1,7 @@
 .main{
     background-color:black;
     margin: 0;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Images/Trees-min.JPG");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/background-flower.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -24,13 +24,13 @@
     margin: 5px;
 }
 .main-nav-list li a {
-    color: whitesmoke;
+    color: #1004c3;
     text-decoration: none;
     font-size: 25px;
     font-family: 'Lobster',sans-serif,monospace;
 }
 #main-heading{
-    color: darkgrey;
+    color: #1004c3;
     font-family: 'Staatliches',sans-serif,monospace;
     font-size: 80px;
     margin: 0;
@@ -38,7 +38,7 @@
     padding-top: 75px;
 }
 .second-heading{
-    color: darkgrey;
+    color: #57b4f6;
     font-family: 'Lobster',sans-serif,monospace;
     text-align: center;
     font-size: 65px;
@@ -49,7 +49,7 @@
     text-align: center;
     font-family: 'Lobster',sans-serif,monospace;
     font-size: 24px;
-    color: darkgrey;
+    color: #bdbdbd;
     margin-top: 75px;
 }
 #p-span-1{
@@ -76,7 +76,7 @@
     background-color: black;
     text-align: center;
     font-size: 18px;
-    color: darkgrey;
+    color: #1004c3;
     padding: 10px;
     font-family:'Staatliches',sans-serif,monospace;
     position: absolute;
@@ -87,14 +87,14 @@
 /* Start blog page CSS*/
 
 .blog-1-heading{
-    color: darkgrey;
+    color: #1004c3;
     font-family: 'Staatliches',sans-serif,monospace;
     margin: 0;
     text-align: center;
     font-size: 35px;
 }
 .blog-1-para{
-    color: darkgray;
+    color: #bdbdbd;
     text-align: center;
     padding-inline: 308px;
     line-height: 1.5;
@@ -125,7 +125,7 @@
 }
 .example-text{
     text-align: center;
-    color: darkgray;
+    color: #bdbdbd;
     font-size: 24px;
     padding-inline: 308px;
     line-height: 1.5;
@@ -168,7 +168,7 @@
     right: 0;
     left: 0;
     font-size: 24px;
-    color: darkgrey;
+    color: #bdbdbd;
     font-family: 'Lobster',sans-serif,monospace;
 }
 
@@ -176,11 +176,11 @@
 
 .para-quote{
     font-style:italic;  
-    color: darkgrey;
+    color: #bdbdbd;
     text-align: center;
     padding-inline: 308px;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* new page */
