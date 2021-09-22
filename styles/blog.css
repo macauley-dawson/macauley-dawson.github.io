@@ -6,6 +6,10 @@
     position: relative;
     height: 100%;
 }
+.link-change {
+    color: #57b4f6;
+    text-decoration: none;
+}
 .wrapper{
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/background-flower.jpg");
     background-size: cover;
@@ -175,6 +179,13 @@
     font-size: 24px;
     color: #57b4f6;
     font-family: 'Lobster',sans-serif,monospace;
+}
+.header-top{
+    color: #57b4f6;
+    font-family: 'Staatliches',sans-serif,monospace;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
 }
 
 /* NEW PAGE */
